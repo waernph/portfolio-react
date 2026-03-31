@@ -76,6 +76,8 @@ main {
   color: var(--light-color);
   font-size: 1.3rem;
   width: 50vw;
+  padding-left: 15px;
+  border-left: var(--highlight) 3px solid;
 }
 h1 {
   font-family: "Orbitron", sans-serif;
