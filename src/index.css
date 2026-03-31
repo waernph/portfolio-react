@@ -12,25 +12,36 @@
 
 }
 
+
+header {
+  margin-top: 100px;
+  height: 90vh;
+}
+
+
 body {
-  width: 100vw;
   margin: 0;
-  top: 0;
+  padding: 0;
   background-color: var(--bg-color);
 }
 
-.App {
-  
-  margin-left: var(--margin-left);
-  margin-right: var(var--margin-right);
 
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  backdrop-filter: blur(15px) brightness(0.7);
 }
 
 .Navbar-ul {
+  margin-left: var(--margin-left);
+  margin-right: var(--margin-right);
   display: flex;
   flex-direction: row;
   gap: 5%;
-  padding: 0;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 0;
 }
 
 .Navbar-li {
@@ -39,9 +50,26 @@ body {
   font-weight: 400;
   font-size: 1.2rem;
   color: var(--light-color);
+  transition: all 1s ease-in-out;
 }
 
-h2{
+main {
+  margin-left: var(--margin-left);
+  margin-right: var(--margin-right);
+  display: flex;
+  flex-direction: column;
+  gap: 20%;
+}
+
+h1 {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  text-align: center;
+  color: var(--light-color);
+}
+
+h2 {
   font-family: "Orbitron", sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
@@ -51,4 +79,11 @@ h2{
 a {
   text-decoration: none;
   color: var(--light-color);
+  
+}
+
+footer {
+  bottom: 0;
+  margin-left: var(--margin-left);
+  margin-right: var(var--margin-right);
 }

@@ -1,17 +1,13 @@
-
+import Navbar from "./navbar";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <nav>
-          <ul className="Navbar-ul">
-            <li className="Navbar-li"><a href="#about-me">About Me</a></li>
-            <li className="Navbar-li"> <a href="#skills">Skills</a></li>
-            <li className="Navbar-li"> <a href="#portfolio">Portfolio</a></li>
-            <li className="Navbar-li"> <a href="#references">References</a></li>
-          </ul>
-        </nav>
+      <Navbar />
+      <header>
+        <section className="Hero">
+          <h1>WRN</h1>
+        </section>
       </header>
       <main className="Main">
         <section id="about-me"><h2>About me</h2></section>
