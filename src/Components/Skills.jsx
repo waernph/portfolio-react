@@ -1,9 +1,9 @@
 import { ReactComponent as CSharpLogo } from '../Media/logos/C_Sharp_Logo_2023_cropped.svg'
-import { ReactComponent as CSS3Logo } from "../Media/logos/CSS3_logo_and_wordmark_white.svg"
-import { ReactComponent as HTML5Logo } from "../Media/logos/HTML5_logo_and_wordmark_white.svg"
 import { ReactComponent as JavaScriptLogo } from "../Media/logos/Javascript-shield.svg"
 import { ReactComponent as SQLServerLogo } from "../Media/logos/Microsoft_SQL_Server_2025_icon.svg"
 import { ReactComponent as GitHubLogo} from "../Media/logos/GitHub/GitHub_Invertocat_White.svg"
+import Html5Logo from "../Media/logos/HTML5_logo_and_wordmark_white.svg"
+import { ReactComponent as CssLogo} from "../Media/logos/cssLogo"
 function Skills() {
     return (
         <section id="skills">
@@ -22,7 +22,7 @@ function Skills() {
                     </ul>
                 </li>
                 <li>
-                    {/* <SQLServer className="Logo-img"/> */}
+                    <SQLServerLogo className="Logo-img"/>
                     <ul className="skill-list">
                         <li>SQL Server</li>
                         <li>SQL Server Management Studio</li>
@@ -33,7 +33,7 @@ function Skills() {
                     </ul>
                 </li>
                 <li>
-                    <HTML5Logo className='Logo-img' />
+                    <img className="Logo-img" src={Html5Logo} alt="" />
                     <ul className="skill-list">
                         <li>Create a SPA</li>
                         <li>Semantic HTML</li>
@@ -41,8 +41,7 @@ function Skills() {
                     </ul>
                 </li>
                 <li>
-                    {/* <CSS3Logo /> */}
-                    <img id="css3-logo" src="resources/media/logos/CSS3_logo_and_wordmark_white.svg" alt="Logo of CSS3" />
+                    <CssLogo/>
                     <ul className="skill-list">
                         <li>CSS styling</li>
                         <li>Animation</li>
@@ -51,8 +50,7 @@ function Skills() {
                     </ul>
                 </li>
                 <li>
-                    {/* <JavaScriptLogo /> */}
-                    <img id="js-logo" src="resources/media/logos/Javascript-shield.svg" alt="Logo of JavaScript" />
+                    <JavaScriptLogo className="Logo-img" />
                     <ul className="skill-list">
                         <li>Fetch</li>
                         <li>JavaScript DOM</li>
@@ -61,7 +59,7 @@ function Skills() {
                     </ul>
                 </li>
                 <li>
-                    <img id="github-logo" src="resources/media/logos/GitHub/GitHub_Invertocat_White.svg" alt="Logo of GitHub" />
+                    <GitHubLogo className="Logo-img" />
                     <ul className="skill-list">
                         <li>Git and GitHub Repositories</li>
                         <li>Git CLI</li>
