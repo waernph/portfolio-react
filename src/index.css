@@ -1,25 +1,54 @@
 :root {
-    --bg-color: #1B3C53;
-    --extra-dark: #152e3f;
-    --highlight: #78B9B5;
-    --light-color: #D2C1B6;
-    --hero-color-one: #74ff86;
-    --hero-color-two: #b978ac;
-    transition: all 0.5s ease-in-out;
+  --bg-color: #1B3C53;
+  --extra-dark: #152e3f;
+  --highlight: #78B9B5;
+  --light-color: #D2C1B6;
+  --hero-color-one: #74ff86;
+  --hero-color-two: #b978ac;
+
+  --margin-left: 5%;
+  --margin-right: 5%;
+  transition: all 0.5s ease-in-out;
+
 }
-.App{
+
+body {
   width: 100vw;
+  margin: 0;
+  top: 0;
   background-color: var(--bg-color);
+}
+
+.App {
+  
+  margin-left: var(--margin-left);
+  margin-right: var(var--margin-right);
+
 }
 
 .Navbar-ul {
   display: flex;
   flex-direction: row;
   gap: 5%;
+  padding: 0;
 }
 
 .Navbar-li {
   list-style: none;
   font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: var(--light-color);
+}
+
+h2{
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: var(--light-color);
+}
+
+a {
+  text-decoration: none;
   color: var(--light-color);
 }
