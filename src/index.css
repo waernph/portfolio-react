@@ -59,6 +59,24 @@ main {
   gap: 20%;
 }
 
+.Video {
+  width: 400px;
+}
+.About-me-content {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: var(--margin-left);
+}
+.about-me-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  font-family: "Nunito";
+  color: var(--light-color);
+  font-size: 1.3rem;
+  width: 50vw;
+}
 h1 {
   font-family: "Orbitron", sans-serif;
   font-weight: 400;
@@ -69,15 +87,17 @@ h1 {
 
 h2 {
   font-family: "Orbitron", sans-serif;
-  font-weight: 400;
-  font-size: 1.6rem;
+  font-weight: 500;
+  font-size: 1.8rem;
   color: var(--light-color);
 }
 
 a {
   text-decoration: none;
   color: var(--light-color);
-  
+}
+p {
+  margin: 0;
 }
 
 footer {
