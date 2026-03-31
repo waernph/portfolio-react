@@ -11,9 +11,7 @@
   transition: all 0.5s ease-in-out;
 
 }
-
-
-header {
+.Hero {
   margin-top: 100px;
   height: 90vh;
 }
@@ -84,6 +82,6 @@ a {
 
 footer {
   bottom: 0;
-  margin-left: var(--margin-left);
-  margin-right: var(var--margin-right);
+  height: 30px;
+  background-color: var(--light-color);
 }
