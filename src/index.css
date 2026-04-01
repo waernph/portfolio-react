@@ -18,6 +18,7 @@
 
 
 body {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   background-color: var(--bg-color);
@@ -76,7 +77,45 @@ main {
   color: var(--light-color);
   font-size: 1.3rem;
   width: 50vw;
+  padding-left: 15px;
+  border-left: var(--highlight) 3px solid;
 }
+
+.logos * {
+  padding: 0;
+  list-style: none;
+}
+.logos {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.logos li {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.Logo-img {
+  height: 70px;
+  object-fit:cover;
+}
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  border-left: var(--highlight) 3px solid;
+  padding-left: 15px;
+  justify-content: start;
+  align-items: start;
+  font-family: "Nunito", sans-serif;
+  color: var(--light-color);
+}
+
 h1 {
   font-family: "Orbitron", sans-serif;
   font-weight: 400;
