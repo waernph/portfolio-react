@@ -89,13 +89,15 @@ main {
   display: flex;
   flex-direction: row;
   align-items: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
   padding: 0;
 }
 .logos li {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  justify-content: space-evenly;
+  gap: 20px;
+  justify-content: space-between;
   align-items: center;
 }
 .Logo-img {
@@ -105,7 +107,12 @@ main {
 .skill-list {
   display: flex;
   flex-direction: column;
+  width: 100px;
+  border-left: var(--highlight) 3px solid;
+  padding-left: 15px;
   justify-content: start;
+  align-items: start;
+  font-family: "Nunito", sans-serif;
   color: var(--light-color);
 }
 

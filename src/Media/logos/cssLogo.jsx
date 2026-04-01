@@ -1,5 +1,5 @@
-const CssLogo = () => (
-  <svg width="100%" height="100%" viewBox="0 0 291 410" style={{ fillRule: "evenodd", clipRule: "evenodd", strokeLinejoin: "round", strokeMiterlimit: "2" }}>
+const CssLogo = (props) => (
+  <svg {...props} width="100%" height="100%" viewBox="0 0 291 410" style={{ fillRule: "evenodd", clipRule: "evenodd", strokeLinejoin: "round", strokeMiterlimit: "2" }}>
     <g transform="matrix(0.8,0,0,0.8,-59.7064,-2.84217e-14)">
       <g>
         <path d="M437.367,100.62L404.321,470.819L255.778,512L107.644,470.877L74.633,100.62L437.367,100.62Z" style={{ fill: "rgb(38,77,228)" }} />

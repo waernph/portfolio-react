@@ -3,7 +3,7 @@ import { ReactComponent as JavaScriptLogo } from "../Media/logos/Javascript-shie
 import { ReactComponent as SQLServerLogo } from "../Media/logos/Microsoft_SQL_Server_2025_icon.svg"
 import { ReactComponent as GitHubLogo} from "../Media/logos/GitHub/GitHub_Invertocat_White.svg"
 import Html5Logo from "../Media/logos/HTML5_logo_and_wordmark_white.svg"
-import { ReactComponent as CssLogo} from "../Media/logos/cssLogo"
+import CssLogo from "../Media/logos/cssLogo"
 function Skills() {
     return (
         <section id="skills">
@@ -41,7 +41,7 @@ function Skills() {
                     </ul>
                 </li>
                 <li>
-                    <CssLogo/>
+                    <CssLogo className="Logo-img"/>
                     <ul className="skill-list">
                         <li>CSS styling</li>
                         <li>Animation</li>
