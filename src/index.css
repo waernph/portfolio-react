@@ -116,6 +116,27 @@ main {
   color: var(--light-color);
 }
 
+.refText {
+  font-family: "Nunito", sans-serif;
+  color: var(--light-color);
+  font-size: 2.3rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.refName {
+  font-family: "Orbitron", sans-serif;
+  color: var(--light-color);
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: right;
+}
+.refCompany {
+  font-family: "Nunito", sans-serif;
+  color: var(--light-color);
+  text-align: right;
+}
+
 h1 {
   font-family: "Orbitron", sans-serif;
   font-weight: 400;
@@ -141,6 +162,21 @@ p {
 
 footer {
   bottom: 0;
-  height: 30px;
+  height: 70px;
   background-color: var(--light-color);
+}
+
+.footerList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  bottom: 35px;
+}
+
+.footerList li {
+  list-style: none;
+  font-family: "Nunito", sans-serif;
+  color: var(--bg-color);
+  font-size: 1.3rem;
+  font-weight: 600;
 }
