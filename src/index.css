@@ -162,21 +162,32 @@ p {
 
 footer {
   bottom: 0;
-  height: 70px;
+  height: 80px;
   background-color: var(--light-color);
+  margin-top: 15px;
 }
 
-.footerList {
+.footerSection {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
   justify-content: center;
-  bottom: 35px;
-}
-
-.footerList li {
-  list-style: none;
-  font-family: "Nunito", sans-serif;
-  color: var(--bg-color);
   font-size: 1.3rem;
   font-weight: 600;
+  font-family: "Nunito", sans-serif;
+  color: var(--bg-color);
 }
+.copyrightInfo {
+  margin-top: 5px;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+}
+.footerLogos {
+  display: flex;
+  gap: 10px;
+}
+.faIcon {
+  color: var(--bg-color);
+}
+
