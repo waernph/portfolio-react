@@ -51,6 +51,10 @@ nav {
   color: var(--light-color);
   transition: all 1s ease-in-out;
 }
+.Navbar-li a:hover {
+  filter: drop-shadow(0px 0px 5px var(--highlight));
+  transition: all 0.2s;
+}
 
 main {
   margin-left: var(--margin-left);
