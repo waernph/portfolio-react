@@ -1,14 +1,15 @@
 import Grainient from './Grainient';
+import Logo from '../Media/logos/danish_ae.svg';
+
 function Hero() {
   return (
     <section className="Hero">
-      <div className='heroLogo'>
-        <img src="src\Media\logos\danish_ae.svg" alt="" />
-      </div>
-      {/* color1= "#74ff86"
-      color2="#b978ac"
-      color3="#1B3C53" */}
       <div style={{ width: '100%', height: '600px', position: 'relative' }}>
+        <div className='Logo'>
+          <img src={Logo} alt="Logo with a danish ae" />
+          <h1>Philip Waern</h1>
+        </div>
+
         <Grainient
           color1="#74ff86"
           color2="#1B3C53"
