@@ -1,0 +1,8 @@
+.grainient-container {
+    margin: 0;
+    position: relative;
+    /* height: 100%; */
+    z-index: 0;
+    overflow: hidden;
+    background-color: var(--bg-color);
+}
