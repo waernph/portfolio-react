@@ -116,6 +116,27 @@ main {
   color: var(--light-color);
 }
 
+.refText {
+  font-family: "Nunito", sans-serif;
+  color: var(--light-color);
+  font-size: 2.3rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.refName {
+  font-family: "Orbitron", sans-serif;
+  color: var(--light-color);
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: right;
+}
+.refCompany {
+  font-family: "Nunito", sans-serif;
+  color: var(--light-color);
+  text-align: right;
+}
+
 h1 {
   font-family: "Orbitron", sans-serif;
   font-weight: 400;
@@ -141,6 +162,32 @@ p {
 
 footer {
   bottom: 0;
-  height: 30px;
+  height: 80px;
   background-color: var(--light-color);
+  margin-top: 15px;
 }
+
+.footerSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+  color: var(--bg-color);
+}
+.copyrightInfo {
+  margin-top: 5px;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+}
+.footerLogos {
+  display: flex;
+  gap: 10px;
+}
+.faIcon {
+  color: var(--bg-color);
+}
+

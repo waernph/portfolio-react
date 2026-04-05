@@ -31,9 +31,9 @@ function ReferencesText() {
 
     return (
         <section>
-            <h3>{refDict[index].text}</h3>
-            <p>{refDict[index].name}</p>
-            <p>{refDict[index].company}</p>
+            <em className="refText">"{refDict[index].text}"</em>
+            <p className="refName">{refDict[index].name}</p>
+            <p className="refCompany">{refDict[index].company}</p>
         </section>
     )
 }
