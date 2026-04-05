@@ -7,7 +7,8 @@ function Navbar() {
             <li className="Navbar-li"> <a href="#portfolio">Portfolio</a></li>
             <li className="Navbar-li"> <a href="#references">References</a></li>
           </ul>
-        </nav> 
+          
+        </nav>
     )
 }
 export default Navbar;
