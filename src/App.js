@@ -13,9 +13,9 @@ function App() {
       <header>
         <Navbar />
       </header>
-      
+      <Hero />
       <main className="Main">
-        <Hero />
+        
         <AboutMe />
         <Skills />
         <Portfolio />
