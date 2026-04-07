@@ -76,6 +76,7 @@
 .BtnSection {
   display: flex;
   justify-content: space-between;
+  margin: 10px;
 }
 .Card h3 {
   font-family: "Orbitron";
@@ -88,12 +89,11 @@
   font-family: "Orbitron", sans-serif;
   text-decoration: none;
   background-color: var(--light-color);
-  width: 120px;
+  width: 130px;
   padding-top: 2%;
   padding-bottom: 2%;
   border: var(--extra-dark) 0px solid;
   border-radius: 5px;
-  margin: 10px;
   transition: all 0.3s ease-in-out;
 }
 .Card p {
