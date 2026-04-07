@@ -22,8 +22,8 @@ function Portfolio() {
                     imgUrl={KeyboardImg}
                     logoOne={JavaScript}
                     logoTwo={Html5}
-                    gitHubUrl={"www.github.com"}
-                    testMeUrl={"wrn.se"} />
+                    gitHubUrl={"https://github.com/waernph/Keyboard"}
+                    testMeUrl={"https://keyboard.wrn.se/"} />
 
                 <Card
                     title={"Bank App API"}
@@ -32,7 +32,7 @@ function Portfolio() {
                     logoOne={CSharp}
                     logoTwo={DotNet}
                     logoThree={SqlServer}
-                    gitHubUrl={''}
+                    gitHubUrl={'https://github.com/waernph/BankOfWaern.git'}
                     testMeUrl={''} />
 
                 <Card
@@ -42,7 +42,7 @@ function Portfolio() {
                     logoOne={CSharp}
                     logoTwo={DotNet}
                     logoThree={SqlServer}
-                    gitHubUrl={''}
+                    gitHubUrl={'https://github.com/waernph/BrewHub.git'}
                     testMeUrl={''} />
 
                 <Card
@@ -50,7 +50,7 @@ function Portfolio() {
                     descripton={'A console game developed as an examination project during the course C#/.NET Basics'}
                     imgUrl={Shotgun}
                     logoOne={CSharp}
-                    gitHubUrl={''}
+                    gitHubUrl={'https://github.com/waernph/shotgun3.git'}
                     testMeUrl={''} />
 
             </div>
