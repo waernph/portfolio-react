@@ -45,7 +45,7 @@ function Skills() {
                     <ul className="skill-list">
                         <li>CSS styling</li>
                         <li>Animation</li>
-                        <li>CSS Pseudo-classNamees</li>
+                        <li>CSS Pseudo-classNames</li>
                         <li>Flex / Grid</li>
                     </ul>
                 </li>
