@@ -28,11 +28,16 @@
   height: 40%;
   z-index: 5;
 }
+
 .Projects {
   display: flex;
   justify-content: space-between;
 }
+
 .Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 400px;
   width: 250px;
   border-radius: 15px;
@@ -41,6 +46,34 @@
   border: 3px var(--light-color) solid;
   background-color: var(--extra-dark);
   color: var(--light-color);
+}
+
+.BtnSection {
+
+  display: flex;
+  gap: 5px;
+}
+
+.Card a * {
+  text-align: center;
+  color: var(--bg-color);
+  font-size: 1rem;
+  font-family: "Orbitron", sans-serif;
+  text-decoration: none;
+  background-color: var(--light-color);
+  width: 125px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border: var(--extra-dark) 0px solid;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.Card p {
+  font-family: "Nunito";
+}
+.Card a *:hover {
+  filter: drop-shadow(0px 0px 5px var(--highlight));
+  cursor: pointer;
 }
 
 body {
