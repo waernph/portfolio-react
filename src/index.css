@@ -34,46 +34,76 @@
   justify-content: space-between;
 }
 
-.Card {
+.CardContainer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 400px;
-  width: 250px;
+  height: 550px;
+  width: 300px;
   border-radius: 15px;
-  padding: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 3px var(--light-color) solid;
   background-color: var(--extra-dark);
+  transition: all 0.3s ease-in-out;
+}
+.Card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
   color: var(--light-color);
+}
+.CardContainer:hover {
+  filter: drop-shadow(0px 0px 5px var(--highlight));
+}
+.projectLogos {
+  height: 2.2rem;
+}
+.projectLogoSection {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.projectImage {
+  width: 100%;
+}
+.projectLogosList {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
 }
 
 .BtnSection {
-
   display: flex;
-  gap: 5px;
+  justify-content: space-between;
+}
+.Card h3 {
+  font-family: "Orbitron";
 }
 
-.Card a * {
+.CardContainer a * {
   text-align: center;
   color: var(--bg-color);
   font-size: 1rem;
   font-family: "Orbitron", sans-serif;
   text-decoration: none;
   background-color: var(--light-color);
-  width: 125px;
+  width: 120px;
   padding-top: 2%;
   padding-bottom: 2%;
   border: var(--extra-dark) 0px solid;
   border-radius: 5px;
+  margin: 10px;
   transition: all 0.3s ease-in-out;
 }
 .Card p {
   font-family: "Nunito";
 }
 .Card a *:hover {
-  filter: drop-shadow(0px 0px 5px var(--highlight));
   cursor: pointer;
+}
+.Card img {
+  border-radius: 5px;
 }
 
 body {

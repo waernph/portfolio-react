@@ -6,12 +6,25 @@ library.add(fab)
 
 
 
-function Card({ title, descripton, imgUrl, gitHubUrl, testMeUrl }) {
+function Card({ title, descripton, imgUrl, gitHubUrl, testMeUrl, logoOne, logoTwo, logoThree }) {
     return (
-        <div className='Card'>
-            <h3>{title}</h3>
-            <img src={imgUrl} alt="image of project" />
-            <p>{descripton}</p>
+        <div className='CardContainer'>
+            <div className='Card'>
+                <div className='projectLogoSection'>
+                    <img className='projectImage' src={imgUrl} alt="image of project" />
+                    <div className='projectLogosList'>
+                        <img className='projectLogos' src={logoOne} alt="" />
+                        <img className='projectLogos' src={logoTwo} alt="" />
+                        <img className='projectLogos' src={logoThree} alt="" />
+                    </div>
+
+                </div>
+                <div>
+                    <h3>{title}</h3>
+                    <p>{descripton}</p>
+                </div>
+
+            </div>
             <div className='BtnSection'>
                 <a href={gitHubUrl}><button>GitHub</button></a>
                 <a href={testMeUrl}><button>Try it!</button></a>
