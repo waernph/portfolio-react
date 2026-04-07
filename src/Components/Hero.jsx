@@ -1,12 +1,14 @@
 import Grainient from './Grainient';
 import Logo from '../Media/logos/danish_ae.svg';
+import DanishAe from '../Media/logos/danishAe';
 
 function Hero() {
   return (
     <section className="Hero">
       <div style={{ width: '100%', height: '600px', position: 'relative' }}>
         <div className='Logo'>
-          <img src={Logo} alt="Logo with a danish ae" />
+          <DanishAe />
+          {/* <img src={Logo} alt="Logo with a danish ae" /> */}
           <h1>Philip Waern</h1>
         </div>
 
@@ -30,9 +32,9 @@ function Hero() {
           contrast={1}
           gamma={1}
           saturation={1}
-          centerX={0.5}
-          centerY={0.5}
-          zoom={1}
+          centerX={0.3}
+          centerY={0.2}
+          zoom={1.2}
         />
       </div>
     </section>
