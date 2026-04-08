@@ -8,6 +8,8 @@
 
   --margin-left: 5%;
   --margin-right: 5%;
+  --scroll-margin-top: 120px;
+  scroll-behavior: smooth;
   transition: all 0.5s ease-in-out;
 
 }
@@ -162,6 +164,7 @@ nav {
   color: var(--highlight);
   border-bottom: 2px var(--highlight) solid;
 }
+
 .NavbarLogo {
   margin-top: 5px;
   height: 2rem;
@@ -317,4 +320,11 @@ footer {
 
 .faIcon {
   color: var(--bg-color);
+}
+
+#about-me,
+#portfolio,
+#skills,
+#references {
+  scroll-margin-top: var(--scroll-margin-top);
 }
