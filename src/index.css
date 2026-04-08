@@ -46,6 +46,7 @@
   background-color: var(--extra-dark);
   transition: all 0.3s ease-in-out;
 }
+
 .Card {
   display: flex;
   flex-direction: column;
@@ -53,20 +54,25 @@
   padding: 20px;
   color: var(--light-color);
 }
+
 .CardContainer:hover {
   filter: drop-shadow(0px 0px 5px var(--highlight));
 }
+
 .projectLogos {
   height: 2.2rem;
 }
+
 .projectLogoSection {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
+
 .projectImage {
   width: 100%;
 }
+
 .projectLogosList {
   display: flex;
   flex-direction: row;
@@ -78,6 +84,7 @@
   justify-content: space-between;
   margin: 10px;
 }
+
 .Card h3 {
   font-family: "Orbitron";
 }
@@ -96,12 +103,15 @@
   border-radius: 5px;
   transition: all 0.3s ease-in-out;
 }
+
 .Card p {
   font-family: "Nunito";
 }
+
 .Card a *:hover {
   cursor: pointer;
 }
+
 .Card img {
   border-radius: 5px;
 }
@@ -135,24 +145,30 @@ nav {
 
 .Navbar-li {
   list-style: none;
+
+}
+
+.Navbar-li-a {
   font-family: "Orbitron", sans-serif;
   font-weight: 400;
   font-size: 1.2rem;
   color: var(--light-color);
-  transition: all 1s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
-.Navbar-li a:hover {
-  filter: drop-shadow(0px 0px 5px var(--highlight));
-  transition: all 0.2s;
+.Navbar-li-a:hover {
+  color: var(--highlight);
+  border-bottom: 2px var(--highlight) solid;
 }
 
 main {
   margin-left: var(--margin-left);
   margin-right: var(--margin-right);
+  margin-top: 50px;
+  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
-  gap: 20%;
+  gap: 100px;
 }
 
 .Video {
