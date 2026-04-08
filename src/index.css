@@ -132,11 +132,13 @@ nav {
   backdrop-filter: blur(15px) brightness(0.7);
 }
 
+
 .Navbar-ul {
   margin-left: var(--margin-left);
   margin-right: var(--margin-right);
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 5%;
   padding-bottom: 20px;
   padding-top: 20px;
@@ -159,6 +161,10 @@ nav {
 .Navbar-li-a:hover {
   color: var(--highlight);
   border-bottom: 2px var(--highlight) solid;
+}
+.NavbarLogo {
+  margin-top: 5px;
+  height: 2rem;
 }
 
 main {
