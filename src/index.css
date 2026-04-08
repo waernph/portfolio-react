@@ -105,6 +105,13 @@
   border-radius: 5px;
   transition: all 0.3s ease-in-out;
 }
+/* .BtnSection button:hover{
+  cursor: pointer;
+} */
+ .CardContainer a *:hover {
+  cursor: pointer;
+  background-color: var(--highlight);
+ }
 
 .Card p {
   font-family: "Nunito";
