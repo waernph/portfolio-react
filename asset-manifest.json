@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.5cfa3e39.css",
+    "main.js": "/portfolio-react/static/js/main.3ca60068.js",
+    "static/js/453.59541c36.chunk.js": "/portfolio-react/static/js/453.59541c36.chunk.js",
+    "static/media/Profilepic.webm": "/portfolio-react/static/media/Profilepic.7da3ab84dc2b568926c9.webm",
+    "static/media/C_Sharp_Logo_2023_cropped.svg": "/portfolio-react/static/media/C_Sharp_Logo_2023_cropped.c225c68e0ee1469a1e1408b7a002212c.svg",
+    "static/media/Bank_app.webp": "/portfolio-react/static/media/Bank_app.bbe7552a888f615f7fa9.webp",
+    "static/media/brewhub.webp": "/portfolio-react/static/media/brewhub.2e9d9d997c242d2d1118.webp",
+    "static/media/keyboard-case.webp": "/portfolio-react/static/media/keyboard-case.4d7fcc83685b3519b735.webp",
+    "static/media/Shotsgun_img.webp": "/portfolio-react/static/media/Shotsgun_img.b8e56ffc4455caeac347.webp",
+    "static/media/Javascript-shield.svg": "/portfolio-react/static/media/Javascript-shield.7ad619d685a06d21df725ca4616da0f3.svg",
+    "static/media/Microsoft_SQL_Server_2025_icon.svg": "/portfolio-react/static/media/Microsoft_SQL_Server_2025_icon.06e169d9ac717d3044c5a559641108bf.svg",
+    "static/media/danish_ae.svg": "/portfolio-react/static/media/danish_ae.44b4444fe5037e77cf9ba0b2aad421f6.svg",
+    "static/media/HTML5_logo_and_wordmark_white.svg": "/portfolio-react/static/media/HTML5_logo_and_wordmark_white.bca337c602ae127fc4023273bf904c9d.svg",
+    "static/media/GitHub_Invertocat_White.svg": "/portfolio-react/static/media/GitHub_Invertocat_White.0c3721cbcee548a60f0ea7208b22f07d.svg",
+    "static/media/Microsoft_.NET_logo.svg": "/portfolio-react/static/media/Microsoft_.NET_logo.18c10050cdc904fbb0819ae44b69d91f.svg",
+    "index.html": "/portfolio-react/index.html",
+    "main.5cfa3e39.css.map": "/portfolio-react/static/css/main.5cfa3e39.css.map",
+    "main.3ca60068.js.map": "/portfolio-react/static/js/main.3ca60068.js.map",
+    "453.59541c36.chunk.js.map": "/portfolio-react/static/js/453.59541c36.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cfa3e39.css",
+    "static/js/main.3ca60068.js"
+  ]
+}

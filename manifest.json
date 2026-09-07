@@ -1,0 +1,25 @@
+{
+  "short_name": "WRN | Portfolio",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "danish_ae.svg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "svg"
+    },
+    {
+      "src": "danish_ae.svg",
+      "type": "svg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "danish_ae.svg",
+      "type": "svg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
