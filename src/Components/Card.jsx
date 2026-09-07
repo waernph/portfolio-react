@@ -26,8 +26,10 @@ function Card({ title, descripton, imgUrl, gitHubUrl, testMeUrl, logoOne, logoTw
 
             </div>
             <div className='BtnSection'>
-                <a href={gitHubUrl} target='_blank'><button>GitHub</button></a>
-                <a href={testMeUrl} target='_blank'><button>Try it!</button></a>
+                <a href={gitHubUrl} target='_blank'><button className='Btn-Case'>GitHub</button></a>
+                {testMeUrl !== null && (
+                    <a href={testMeUrl} target='_blank'><button className='Btn-Case'>Try it!</button></a>
+                )}
             </div>
         </div>
     )

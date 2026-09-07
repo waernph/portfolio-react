@@ -33,7 +33,7 @@ function Portfolio() {
                     logoTwo={DotNet}
                     logoThree={SqlServer}
                     gitHubUrl={'https://github.com/waernph/BankOfWaern.git'}
-                    testMeUrl={''} />
+                    testMeUrl={null} />
 
                 <Card
                     title={"BrewHub API"}
@@ -43,7 +43,7 @@ function Portfolio() {
                     logoTwo={DotNet}
                     logoThree={SqlServer}
                     gitHubUrl={'https://github.com/waernph/BrewHub.git'}
-                    testMeUrl={''} />
+                    testMeUrl={null} />
 
                 <Card
                     title={"Shotgun"}
@@ -51,7 +51,7 @@ function Portfolio() {
                     imgUrl={Shotgun}
                     logoOne={CSharp}
                     gitHubUrl={'https://github.com/waernph/shotgun3.git'}
-                    testMeUrl={''} />
+                    testMeUrl={null} />
 
             </div>
 
