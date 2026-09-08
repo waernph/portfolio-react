@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.5cfa3e39.css",
-    "main.js": "/portfolio-react/static/js/main.3ca60068.js",
+    "main.css": "/portfolio-react/static/css/main.fe65bb5a.css",
+    "main.js": "/portfolio-react/static/js/main.a5719665.js",
     "static/js/453.59541c36.chunk.js": "/portfolio-react/static/js/453.59541c36.chunk.js",
     "static/media/Profilepic.webm": "/portfolio-react/static/media/Profilepic.7da3ab84dc2b568926c9.webm",
     "static/media/C_Sharp_Logo_2023_cropped.svg": "/portfolio-react/static/media/C_Sharp_Logo_2023_cropped.c225c68e0ee1469a1e1408b7a002212c.svg",
@@ -16,12 +16,12 @@
     "static/media/GitHub_Invertocat_White.svg": "/portfolio-react/static/media/GitHub_Invertocat_White.0c3721cbcee548a60f0ea7208b22f07d.svg",
     "static/media/Microsoft_.NET_logo.svg": "/portfolio-react/static/media/Microsoft_.NET_logo.18c10050cdc904fbb0819ae44b69d91f.svg",
     "index.html": "/portfolio-react/index.html",
-    "main.5cfa3e39.css.map": "/portfolio-react/static/css/main.5cfa3e39.css.map",
-    "main.3ca60068.js.map": "/portfolio-react/static/js/main.3ca60068.js.map",
+    "main.fe65bb5a.css.map": "/portfolio-react/static/css/main.fe65bb5a.css.map",
+    "main.a5719665.js.map": "/portfolio-react/static/js/main.a5719665.js.map",
     "453.59541c36.chunk.js.map": "/portfolio-react/static/js/453.59541c36.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cfa3e39.css",
-    "static/js/main.3ca60068.js"
+    "static/css/main.fe65bb5a.css",
+    "static/js/main.a5719665.js"
   ]
 }
